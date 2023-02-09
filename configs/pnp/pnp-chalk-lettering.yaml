@@ -1,4 +1,4 @@
-source_experiment_name: "neon_lettering" # the experiment name of the source image
+source_experiment_name: "chalk_lettering" # the experiment name of the source image
 prompts: # text prompts for translations
 #  - "a photo of a robot horse"
   - "Wake me up when the foods gone"
@@ -7,7 +7,7 @@ scale: 10.0 # unconditional guidance scale. Note that a higher value encourages 
 num_ddim_sampling_steps: 50 # if left empty, defaults to the ddim_steps_callback arg used in the source experiment
 
 # Control the level of structure preservation with injection timestep threshold
-feature_injection_threshold: 40 # should be in [0, num_ddim_sampling_steps]
+feature_injection_threshold: 30 # should be in [0, num_ddim_sampling_steps]
 
 # Control the level of deviation from the source image with Negative prompting params.
 negative_prompt: "Wake me up when the foods ready"

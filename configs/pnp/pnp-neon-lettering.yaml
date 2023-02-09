@@ -3,7 +3,7 @@ prompts: # text prompts for translations
 #  - "a photo of a robot horse"
   - "Hello"
 
-scale: 10.0 # unconditional guidance scale. Note that a higher value encourages deviation from the source image
+scale: 15.0 # unconditional guidance scale. Note that a higher value encourages deviation from the source image
 num_ddim_sampling_steps: 50 # if left empty, defaults to the ddim_steps_callback arg used in the source experiment
 
 # Control the level of structure preservation with injection timestep threshold

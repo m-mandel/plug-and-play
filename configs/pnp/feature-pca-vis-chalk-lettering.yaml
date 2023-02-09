@@ -1,6 +1,6 @@
 config:
   experiment_name: "pca_chalk_lettering"
-  block: "output_block_4" # the module name of the visualized features (e.g. "output_block_4", "input_block_7").
+  block: "output_block_1" # the module name of the visualized features (e.g. "output_block_4", "input_block_7").
   experiments_fit: # the list of the experiments to visualize the features for
     - "chalk_lettering"
   experiments_transform: # the list of the experiments used for calculating the principal components
